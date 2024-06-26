@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>PHOTOHRAPHY</title>
+  </head>
+  <body>
+    <!-- navbar starts here  -->
+    <nav class="navbar">
+      <h2>
+        <a href="/" style="text-decoration: none; color: black; cursor: pointer"
+          >GRAPHY</a
+        >
+      </h2>
+      <ul class="list">
+        <li>
+          <a
+            href="/"
+            style="text-decoration: none; color: black; cursor: pointer"
+            >HOME</a
+          >
+        </li>
+        <li style="cursor: pointer">
+          <a
+            href="/photo.html"
+            style="text-decoration: none; color: black; cursor: pointer"
+            >PHOTOGRAPHY
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- navbar ends here  -->
+
+    <!-- video starts here -->
+    <!-- main starts here  -->
+    <main class="main1">
+      <div>
+        <div
+          class="head1"
+          style="display: flex; justify-content: space-between"
+        >
+          <h2 class="capture">CAPTURING</h2>
+          <h2 class="head1">
+            <span style="color: rgb(0, 0, 0)">MOMENTS</span>
+          </h2>
+        </div>
+        <video
+          src="public/4khead.mp4"
+          autoplay
+          muted
+          loop
+          style="width: 100%; height: calc(100vh - 90px); object-fit: cover"
+        ></video>
+      </div>
+    </main>
+    <!-- main ends here -->
+
+    <!-- top listing starts here  -->
+    <section style="height: 100vh; margin-top: 100px">
+      <div style="text-align: center">
+        <h1 style="font-size: 25px">TOP LISTING</h1>
+      </div>
+
+      <div>
+        <div class="image-container">
+          <div class="image-wrapper">
+            <div style="width: 300px; height: 300px">
+              <img src="/public/1.jpg" alt="Image 1" />
+            </div>
+            <div style="width: 300px; height: 300px">
+              <img src="/public/2.jpg" alt="Image 2" />
+            </div>
+            <div style="width: 300px; height: 300px">
+              <img src="/public/3.jpg" alt="Image 3" />
+            </div>
+            <div style="width: 300px; height: 300px">
+              <img src="/public/4.jpg" alt="Image 4" />
+            </div>
+            <div style="width: 300px; height: 300px">
+              <img src="/public/6.jpg" alt="Image 5" />
+            </div>
+            <div style="width: 300px; height: 300px">
+              <img src="public/7.jpg" alt="Image 6" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- top listing ends here -->
+
+    <!-- hr scrolling starts here -->
+
+    <section>
+      <div id="page2">
+        <h1>Lighting</h1>
+      </div>
+      <div id="page3">
+        <h1 id="contrast">
+          Composition <br />
+          Contrast <br />
+          White-balance
+        </h1>
+        <img src="/public/8.jpg" alt="" id="image1" />
+      </div>
+    </section>
+
+    <section>
+      <div
+        style="
+          width: 100%;
+          height: 100vh;
+          background-color: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        <h1 id="freeze" style="color: white; font-size: 25px">
+          freezing moments, capturing souls.
+        </h1>
+      </div>
+    </section>
+
+    <!-- hr scrolling ends here -->
+
+    <!-- video ends here -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
